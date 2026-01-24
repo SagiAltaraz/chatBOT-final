@@ -1,122 +1,155 @@
 # Hybrid Product Information Agent
 
-A sophisticated chatbot system that combines RAG (Retrieval Augmented Generation) with advanced tool orchestration. The system can answer product questions using a vector database and execute complex multi-step queries.
+צ'אטבוט חכם המשלב RAG (חיפוש סמנטי במסמכים) עם כלי עבודה נוספים - מתמטיקה, מזג אוויר, המרת מטבעות.
 
-## 🏗️ Project Structure
+## 🚀 התקנה מהירה
 
-```
-packages/
-├── client/          # React + Vite frontend
-└── server/          # Express + Prisma backend
-python-service/     # Flask + ChromaDB RAG service
-data/               # Product documentation files
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Bun** (package manager & runtime)
-- **Python 3.9+**
-- **OpenAI API key**
-
-### Quick Start
-
-#### 1. Install Dependencies
+### דרישות מקדימות
 
 ```bash
-# Install all packages
+# Bun (JavaScript runtime)
+brew install bun  # macOS
+# או: https://bun.sh
+
+# Python 3.9-3.12
+python3 --version
+```
+
+**צריך API Key:**
+- OpenAI API Key (חובה) - [קבל כאן](https://platform.openai.com)
+- Weather API Key (אופציונלי) - [קבל כאן](https://openweathermap.org)
+
+### שלבי התקנה
+
+**1. התקן תלויות:**
+```bash
 bun install
-
-# Install Python dependencies
-cd python-service
-pip install -r requirements.txt
-cd ..
+cd python-service && pip install -r requirements.txt && cd ..
 ```
 
-#### 2. Environment Setup
-
-Create a `.env` file in the root directory:
-
-```env
-OPENAI_API_KEY=sk-your-key-here
-WEATHER_API_KEY=your-weather-key
-DATABASE_URL=your-database-url
+**2. הגדר `.env` (העתק את הקובץ ושנה את המפתח):**
+```bash
+cp .env.example .env
+nano .env  # שנה את OPENAI_API_KEY
 ```
 
-#### 3. Index Knowledge Base
-
-Before first run, index the product documentation:
-
+**3. בנה את מאגר הידע (חובה - פעם ראשונה):**
 ```bash
 cd python-service
 python3 index_kb.py
 cd ..
 ```
 
-#### 4. Run the Services
+יצר 16 chunks מ-5 מוצרים ✓
 
-**Option 1: Using Scripts (Recommended)**
-
-Open 3 separate terminals and run:
-
+**4. הרץ את המערכת (3 חלונות טרמינל):**
 ```bash
-# Terminal 1: Python RAG Service (port 5001)
+# חלון 1
 ./start-python.sh
 
-# Terminal 2: TypeScript Backend (port 3000)
+# חלון 2
 ./start-server.sh
 
-# Terminal 3: React Client (port 5173)
+# חלון 3
 ./start-client.sh
 ```
 
-**Option 2: Manual**
-
-```bash
-# Terminal 1
-cd python-service && python3 server.py
-
-# Terminal 2
-cd packages/server && bun start
-
-# Terminal 3
-cd packages/client && bun run dev
+**5. פתח דפדפן:**
+```
+http://localhost:5173
 ```
 
-## 🔧 Service Commands
+## 📦 מוצרים במערכת
 
-### Quick Start Scripts
+| מוצר | שם מלא |
+|------|--------|
+| **EvoPhone X** | סמארטפון (5000mAh, 65W) |
+| **BrewMaster Y** | מכונת קפה (2L, 19 bar) |
+| **MakerPro 3D** | מדפסת 3D (רב חומרים) |
+| **TechBook Pro** | לפטופ (32GB RAM) |
+| **EcoVolt Z** | רכב חשמלי (450km) |
 
-- `./start-python.sh` - Start Python RAG service (port 5001)
-- `./start-server.sh` - Start TypeScript backend (port 3000)
-- `./start-client.sh` - Start React client (port 5173)
+## 💬 דוגמאות שימוש
 
-### Python Service
+### שאלות על מוצרים:
+```
+"מה הסוללה של EvoPhone X?"
+"ספר לי על BrewMaster Y"
+"אילו חומרים MakerPro 3D תומך?"
+"כמה RAM יש ל-TechBook Pro?"
+```
 
-- `python3 index_kb.py` - Index product knowledge base (run once before first start)
-- `python3 server.py` - Start Flask RAG service
+### חישובים:
+```
+"4x3"
+"מה זה 2^8?"
+"חשב 25 + 37"
+```
 
-### Maintenance
+### מזג אוויר והמרות:
+```
+"מה מזג האוויר בלונדון?"
+"המר 100 USD ל-EUR"
+```
 
-- **UI Clear Button** - Click the 🗑️ "Clear" button in the chat interface to reset conversation
-- `./clear-chat.sh` - Clear chat history via script (refresh browser to reset)
-- `./clear-chat.sh --clear-kb` - Clear chat AND knowledge base (requires re-indexing)
+### שאלות משולבות (אורקסטרציה):
+```
+"ספר על הקיבולת של BrewMaster Y וחשב 1.5 * 1000"
+"מה הסוללה של EvoPhone X וחשב 5000 * 2"
+"מה מזג האוויר בפריז והמר 50 EUR ל-USD"
+```
 
-### Testing
+## 🧪 הרצת טסטים
 
-- `./test-all.sh` - Run automated tests for math, RAG, and orchestration queries
+```bash
+./test-all.sh
+```
 
-## 📋 Features
+רץ 11 טסטים:
+- 4 טסטי מתמטיקה
+- 4 טסטי RAG (חיפוש במוצרים)
+- 3 טסטי אורקסטרציה
 
-- **RAG System** - ChromaDB vector database for product knowledge
-- **Multi-Tool Orchestration** - Weather, Exchange Rates, Math, Reviews
-- **Real-time Chat** - WebSocket support for live messaging
-- **Database** - Prisma ORM with PostgreSQL/MariaDB
-- **TypeScript** - Full type safety across client and server
+## 🔧 פתרון בעיות
 
-## 📡 Key API Endpoints
+**Python service לא עולה:**
+```bash
+cd python-service
+rm -rf chroma_db/
+python3 index_kb.py
+```
 
-- `POST /api/chat` - Main chat endpoint
-- `POST /api/products/search` - Product information search
-- `GET /api/products/health` - Health check
+**Port תפוס:**
+```bash
+lsof -ti:5001 | xargs kill -9
+lsof -ti:3000 | xargs kill -9
+```
+
+**OpenAI API Key לא עובד:**
+- בדוק שהקובץ `.env` קיים בתיקייה הראשית
+- ודא שהמפתח מתחיל ב-`sk-proj-`
+
+## 📁 מבנה הפרויקט
+
+```
+chatBOT-final/
+├── packages/
+│   ├── client/          # React frontend (Port 5173)
+│   └── server/          # Express backend (Port 3000)
+├── python-service/      # Flask RAG service (Port 5001)
+├── data/products/       # 5 מסמכי מוצרים
+├── start-*.sh           # סקריפטי הפעלה
+└── test-all.sh          # טסטים אוטומטיים
+```
+
+## 🛠️ טכנולוגיות
+
+- **Frontend:** React + TypeScript + Vite
+- **Backend:** Express + Bun + OpenAI
+- **RAG:** Python + Flask + ChromaDB + Sentence Transformers
+
+---
+
+**זהו! המערכת מוכנה לעבודה 🚀**
+
+בעיות? בדוק את קטע "פתרון בעיות" למעלה.
