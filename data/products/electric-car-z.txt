@@ -1,0 +1,98 @@
+EcoVolt Z - Premium Electric Vehicle
+
+OVERVIEW
+The EcoVolt Z is a luxury all-electric sedan that combines sustainable technology with exceptional performance. Designed for the modern driver who values both environmental responsibility and driving dynamics, the EcoVolt Z delivers an uncompromising electric vehicle experience.
+
+TECHNICAL SPECIFICATIONS
+Powertrain: Dual-motor all-wheel drive
+Total Power Output: 670 horsepower (500 kW)
+Torque: 1,050 Nm
+Battery: 100 kWh lithium-ion battery pack
+Range: 520 km (EPA estimated) on a single charge
+Acceleration: 0-100 km/h in 3.2 seconds
+Top Speed: 250 km/h (electronically limited)
+Drive Modes: Eco, Comfort, Sport, and Custom
+Regenerative Braking: 3 levels of adjustable regeneration
+
+CHARGING CAPABILITIES
+- DC Fast Charging: 10-80% in 25 minutes (350kW charger)
+- Level 2 Home Charging: Full charge in 8-10 hours (11kW)
+- Standard Home Outlet: Full charge in 40-50 hours (2.3kW)
+- Onboard Charger: 11kW AC charging
+- Plug Type: CCS Combo (North America) / CCS2 (Europe)
+- Scheduled Charging: Program charging times via mobile app
+
+EXTERIOR DIMENSIONS
+Length: 4,975 mm
+Width: 1,965 mm
+Height: 1,445 mm
+Wheelbase: 2,960 mm
+Ground Clearance: 140 mm
+Drag Coefficient: 0.24 Cd (excellent aerodynamics)
+Weight: 2,240 kg
+Trunk Space: 425 liters rear + 85 liters front trunk
+
+INTERIOR AND TECHNOLOGY
+Seating: 5 passengers with premium vegan leather
+Infotainment: 17-inch central touchscreen with EcoOS 3.0
+Instrument Cluster: 12.3-inch digital display
+Sound System: Premium 18-speaker audio system with 960W output
+Connectivity: 5G connectivity, WiFi hotspot, Bluetooth 5.2
+Navigation: Built-in GPS with real-time traffic and charging station finder
+Voice Control: Advanced AI assistant with natural language processing
+Mobile App: Remote climate control, charging status, vehicle location
+
+ADVANCED DRIVER ASSISTANCE SYSTEMS (ADAS)
+- Adaptive Cruise Control with Traffic Jam Assist
+- Lane Keeping Assist and Lane Change Assist
+- Automatic Emergency Braking with pedestrian detection
+- Blind Spot Monitoring
+- 360-degree camera system
+- Parking Assist with automated parking
+- Highway Autopilot (hands-on, Level 2 autonomy)
+- Traffic Sign Recognition
+- Driver Attention Monitoring
+
+SAFETY FEATURES
+- 5-star safety rating from Euro NCAP
+- 8 airbags including side curtain airbags
+- Reinforced battery protection structure
+- Automatic emergency call system (eCall)
+- Traction control and electronic stability control
+- Anti-lock braking system (ABS) with brake assist
+
+BATTERY AND WARRANTY
+Battery Warranty: 8 years or 160,000 km (whichever comes first)
+Battery Degradation: Less than 10% capacity loss over 8 years (guaranteed)
+Vehicle Warranty: 4 years or 80,000 km
+Roadside Assistance: 4 years included
+
+COMMON QUESTIONS AND ANSWERS
+
+Q: How much does it cost to charge the EcoVolt Z?
+A: At average electricity rates ($0.13 per kWh), a full charge costs approximately $13 USD, providing 520 km of range.
+
+Q: Does cold weather affect the range?
+A: Yes, in temperatures below -10°C, you can expect approximately 20-30% range reduction. The battery has thermal management to minimize this effect.
+
+Q: Can I tow with the EcoVolt Z?
+A: No, the EcoVolt Z is not rated for towing. It's designed as a performance sedan rather than a utility vehicle.
+
+Q: What's the estimated annual maintenance cost?
+A: Much lower than gasoline vehicles. Expect approximately $200-400 per year for tire rotation, brake fluid, and cabin filter replacement.
+
+Q: How long will the battery last?
+A: The battery is designed to retain at least 90% capacity after 8 years. With proper care, it should last 15-20 years.
+
+Q: Can I charge at any public charging station?
+A: The EcoVolt Z uses the standard CCS connector, compatible with most public charging networks in North America and Europe.
+
+Q: Does it support vehicle-to-grid (V2G)?
+A: Currently, no. V2G capability is planned for future model years pending regulatory approval.
+
+PRICING
+Base Model: $68,000 USD
+Premium Package: $74,500 USD (includes upgraded sound system, panoramic roof, advanced autopilot)
+Performance Package: $79,900 USD (includes all premium features plus performance upgrades and 21-inch wheels)
+
+Note: Prices before applicable government EV incentives and rebates
