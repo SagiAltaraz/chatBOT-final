@@ -1,122 +1,42 @@
-MakerPro 3D Printer - Professional 3D Printing System
+MakerPro 3D - Professional 3D Printer
+MakerPro 3D - מדפסת תלת מימד מקצועית
 
-OVERVIEW
-The MakerPro 3D is a professional-grade FDM (Fused Deposition Modeling) 3D printer designed for makers, engineers, and small businesses. With its large build volume, reliable dual-extrusion system, and heated chamber, the MakerPro delivers consistent, high-quality prints with a wide range of materials.
+TECHNICAL SPECIFICATIONS / מפרט טכני
+- Technology / טכנולוגיה: FDM
+- Build volume / נפח הדפסה: 300 x 300 x 400 mm
+- Layer resolution / רזולוציית שכבות: 50-400 microns
+- Print speed / מהירות הדפסה: 40-150 mm/s
+- Nozzle / פיה: 0.4mm (0.2, 0.6, 0.8 available)
+- Extruder / אקסטרודר: Dual IDEX
+- Hotend temp / טמפרטורת פיה: up to 300°C
+- Bed temp / טמפרטורת משטח: up to 110°C
+- Chamber temp / טמפרטורת תא: up to 65°C
+- Filament / חוט: 1.75mm
+- Connectivity / קישוריות: WiFi, Ethernet, USB
+- Display / מסך: 5 inch touchscreen
+- Power / הספק: 350W
+- Dimensions / מידות: 520 x 480 x 680 mm
+- Weight / משקל: 28 kg
 
-TECHNICAL SPECIFICATIONS
-Printing Technology: Fused Deposition Modeling (FDM)
-Build Volume: 300 x 300 x 400 mm (35.7 liters)
-Layer Resolution: 50 to 400 microns (0.05 to 0.4 mm)
-Print Speed: 40-150 mm/s (optimal quality at 60 mm/s)
-Travel Speed: Up to 250 mm/s
-Nozzle Diameter: 0.4 mm standard (interchangeable: 0.2mm, 0.6mm, 0.8mm available)
-Extruder System: Independent Dual Extruder (IDEX) with tool-changing capability
-Hotend Temperature: Up to 300°C
-Heated Build Plate: Up to 110°C, removable flexible steel plate with PEI coating
-Chamber Temperature: Enclosed heated chamber up to 65°C
-Filament Diameter: 1.75 mm
-Connectivity: WiFi, Ethernet, USB drive, USB cable
-Display: 5-inch color touchscreen
-Frame: Rigid aluminum extrusion frame for stability
-Leveling System: Automatic mesh bed leveling with 25-point calibration
-Power: 350W, 110-240V auto-switching
-Dimensions: 520 x 480 x 680 mm
-Weight: 28 kg
+MATERIALS / חומרים
+Standard / סטנדרטי: PLA, PETG, ABS, TPU, ASA
+Engineering / הנדסי: Nylon, Polycarbonate, Carbon Fiber
 
-COMPATIBLE MATERIALS
-Standard Materials:
-- PLA (Polylactic Acid)
-- PETG (Polyethylene Terephthalate Glycol)
-- ABS (Acrylonitrile Butadiene Styrene)
-- TPU (Thermoplastic Polyurethane) - flexible
-- ASA (Acrylonitrile Styrene Acrylate)
+FEATURES / תכונות
+- Auto bed leveling / פילוס משטח אוטומטי
+- Filament runout detection / זיהוי אזילת חוט
+- Power loss recovery / התאוששות מהפסקת חשמל
+- Remote monitoring / ניטור מרחוק via camera / באמצעות מצלמה
+- Quiet operation / פעולה שקטה: under 50 dB
 
-Engineering Materials:
-- Nylon (PA6, PA12)
-- Polycarbonate (PC)
-- Carbon Fiber composites
-- Glass Fiber reinforced filaments
-- PVA and HIPS (soluble support materials)
+ACCURACY / דיוק
+- XY: 12.5 microns
+- Z: 2.5 microns
+- Dimensional / מימדי: ±0.1mm
 
-DUAL EXTRUSION CAPABILITIES
-The Independent Dual Extruder system allows:
-- Multi-color printing (two colors in one print)
-- Multi-material printing (combine materials with different properties)
-- Support material printing (use soluble supports for complex geometries)
-- Mirror and duplication modes (print two identical parts simultaneously)
-- Higher productivity (print two different objects at once)
+WARRANTY / אחריות
+2 years / שנתיים
 
-SOFTWARE AND COMPATIBILITY
-Included Software: MakerPro Slicer (based on PrusaSlicer)
-File Formats: STL, OBJ, AMF, 3MF
-Compatible with: Cura, Simplify3D, PrusaSlicer, and other popular slicers
-Cloud Integration: Upload and monitor prints remotely via MakerPro Cloud
-Camera: Built-in HD camera for remote monitoring
-Control: Web interface and mobile app (iOS/Android)
-
-KEY FEATURES
-- Automatic Filament Detection: Sensors detect filament runout and pause printing
-- Power Loss Recovery: Resume printing after power outage
-- Filament Drying System: Integrated heating for moisture-sensitive materials
-- HEPA Air Filter: Optional enclosed filtration system for safe printing with ABS and other materials
-- Smart Pause: AI-powered monitoring detects print failures and pauses automatically
-- Pre-configured Profiles: Over 100 material profiles built-in
-- Quiet Operation: TMC stepper drivers for silent printing (under 50 dB)
-
-PRINT QUALITY
-Positioning Accuracy: XY: 12.5 microns, Z: 2.5 microns
-Surface Finish: Excellent with minimal layer lines at fine settings
-Dimensional Accuracy: ±0.1mm or ±0.1% (whichever is greater)
-Minimum Feature Size: 0.3 mm walls and details
-
-MAINTENANCE
-- Self-lubricating linear rails: Maintenance-free for normal use
-- Nozzle replacement: Tool-free nozzle changing system
-- Belt tension: Automatic belt tensioning system
-- Estimated maintenance: 5-10 hours per year for heavy users
-
-COMMON QUESTIONS AND ANSWERS
-
-Q: Is assembly required?
-A: The MakerPro comes 95% assembled. You'll need approximately 30 minutes to complete setup and run the first calibration.
-
-Q: What's the difference between single and dual extrusion?
-A: Dual extrusion allows you to print with two different colors or materials simultaneously, enabling complex multi-material parts and dissolvable supports.
-
-Q: How long does a typical print take?
-A: This varies greatly. A small figurine might take 2-4 hours, while a large functional part can take 20-40 hours.
-
-Q: Can beginners use this printer?
-A: Yes, while it's professional-grade, the MakerPro includes beginner-friendly features like automatic calibration and pre-configured profiles.
-
-Q: What's the cost per print?
-A: Depends on size and material. A typical 100g PLA print costs approximately $2-3 USD in material.
-
-Q: Does it require ventilation?
-A: For PLA, no special ventilation needed. For ABS, Nylon, and other engineering materials, use in a well-ventilated area or purchase the optional HEPA filter enclosure.
-
-Q: Can I print from a computer or only from SD card?
-A: You can print via WiFi, Ethernet, USB drive, direct USB cable, or upload to the cloud for remote printing.
-
-Q: What causes print failures?
-A: Common causes include bed adhesion issues, incorrect temperature settings, moisture in filament, or mechanical calibration problems.
-
-WARRANTY AND SUPPORT
-- 2-year manufacturer warranty on electronics and mechanics
-- Lifetime technical support
-- Active community forum and knowledge base
-- Video tutorials and comprehensive documentation
-- Spare parts readily available
-
-WHAT'S INCLUDED
-- MakerPro 3D Printer (assembled)
-- Removable flexible build plate
-- 1kg PLA sample filament
-- Tool kit (hex keys, scraper, nozzle wrench)
-- USB drive with manual and software
-- Power cable
-- Quick start guide
-
-PRICE
-Standard Edition: $1,499 USD
-Professional Edition: $1,799 USD (includes HEPA enclosure, additional nozzles, and upgraded hotends)
+PRICE / מחיר
+- Standard Edition / מהדורה סטנדרטית: $1,499
+- Professional Edition / מהדורה מקצועית: $1,799

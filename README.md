@@ -1,6 +1,14 @@
 # Hybrid Product Information Agent
 
-צ'אטבוט חכם המשלב RAG (חיפוש סמנטי במסמכים) עם כלי עבודה נוספים - מתמטיקה, מזג אוויר, המרת מטבעות.
+צ'אטבוט חכם המשלב **RAG** (Retrieval Augmented Generation) עם **Tool Orchestration** לתזמור מרובה כלים.
+
+**יכולות המערכת:**
+- 🔍 חיפוש סמנטי במאגר מוצרים (ChromaDB)
+- 🧮 חישובים מתמטיים
+- 🌦️ מזג אוויר בזמן אמת
+- 💱 המרת מטבעות
+- 🎯 שילוב מרובה כלים בשאלה אחת (Orchestration)
+- 🌐 **תמיכה בעברית ואנגלית** - עונה בשפה שבה נשאלת השאלה
 
 ## 🚀 התקנה מהירה
 
@@ -134,22 +142,65 @@ lsof -ti:3000 | xargs kill -9
 ```
 chatBOT-final/
 ├── packages/
-│   ├── client/          # React frontend (Port 5173)
-│   └── server/          # Express backend (Port 3000)
-├── python-service/      # Flask RAG service (Port 5001)
-├── data/products/       # 5 מסמכי מוצרים
-├── start-*.sh           # סקריפטי הפעלה
-└── test-all.sh          # טסטים אוטומטיים
+│   ├── client/              # React Frontend (Port 5173)
+│   └── server/
+│       ├── services/
+│       │   ├── intent.service.ts        # Router - זיהוי Intent
+│       │   ├── orchestration.service.ts # תזמור מרובה כלים
+│       │   ├── rag.service.ts           # חיבור ל-ChromaDB
+│       │   ├── weather.service.ts       # API מזג אוויר
+│       │   └── exchange.service.ts      # API המרת מטבעות
+│       └── prompts/                     # הוראות ל-LLM
+├── python-service/          # Flask RAG Service (Port 5001)
+│   ├── server.py            # שרת חיפוש וקטורי
+│   └── index_kb.py          # בניית מאגר הידע
+├── data/products/           # 5 מסמכי מוצרים
+└── test-all.sh              # 11 טסטים אוטומטיים
 ```
+
+## 🔧 איך המערכת עובדת
+
+```
+שאלת משתמש
+     │
+     ▼
+┌─────────────────────────────────────────┐
+│            Router (GPT-4o-mini)          │
+│         זיהוי Intent + פרמטרים          │
+└─────────────────────────────────────────┘
+     │
+     ├── Intent בודד ──► כלי ספציפי (Weather/Math/RAG)
+     │
+     └── Orchestrate ──► תוכנית מרובת שלבים
+                              │
+                        ┌─────┴─────┐
+                        ▼           ▼
+                     שלב 1      שלב 2 ...
+                        │           │
+                        └─────┬─────┘
+                              ▼
+                        סינתוז תשובה אחידה
+```
+
+**Intents זמינים:**
+- `getProductInformation` - חיפוש RAG במאגר המוצרים
+- `calculateMath` - חישובים מתמטיים
+- `getWeather` - מזג אוויר
+- `getExchangeRate` - המרת מטבעות
+- `orchestrate` - שילוב מרובה כלים
+- `chat` - שיחה כללית
 
 ## 🛠️ טכנולוגיות
 
-- **Frontend:** React + TypeScript + Vite
-- **Backend:** Express + Bun + OpenAI
-- **RAG:** Python + Flask + ChromaDB + Sentence Transformers
+| רכיב | טכנולוגיה |
+|------|-----------|
+| **Frontend** | React 19 + TypeScript + Vite |
+| **Backend** | Express + Bun Runtime |
+| **LLM** | OpenAI GPT-4o-mini |
+| **Vector DB** | ChromaDB |
+| **Embeddings** | sentence-transformers/all-MiniLM-L6-v2 |
+| **RAG Service** | Python + Flask |
 
 ---
 
-**זהו! המערכת מוכנה לעבודה 🚀**
-
-בעיות? בדוק את קטע "פתרון בעיות" למעלה.
+**המערכת מוכנה לעבודה! 🚀**

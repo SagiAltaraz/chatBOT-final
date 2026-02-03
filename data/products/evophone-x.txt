@@ -1,7 +1,7 @@
 EvoPhone X - Premium Smartphone
 
 OVERVIEW
-The EvoPhone X represents the pinnacle of mobile technology, combining cutting-edge hardware with an intuitive user experience. Released in 2024, this flagship device sets new standards for smartphone performance and design.
+The EvoPhone X represents the pinnacle of mobile technology, combining cutting-edge hardware with an intuitive user experience.
 
 TECHNICAL SPECIFICATIONS
 Display: 6.7-inch AMOLED screen with 120Hz refresh rate and 2800x1290 resolution
@@ -21,8 +21,8 @@ Weight: 198 grams
 Water Resistance: IP68 rating
 
 KEY FEATURES
-- ProMotion Display: Adaptive refresh rate from 1Hz to 120Hz for smooth scrolling and battery efficiency
-- Night Vision Camera Mode: Enhanced low-light photography with AI processing
+- ProMotion Display: Adaptive refresh rate from 1Hz to 120Hz
+- Night Vision Camera Mode: Enhanced low-light photography
 - Ultra-Fast Charging: 0-50% charge in just 15 minutes
 - Dual SIM support with eSIM capability
 - In-display fingerprint sensor and Face ID
@@ -30,37 +30,56 @@ KEY FEATURES
 - Titanium frame for enhanced durability
 
 BATTERY PERFORMANCE
-The 5000mAh battery provides excellent endurance:
 - Video playback: up to 20 hours
 - Gaming: up to 10 hours
 - Web browsing: up to 15 hours
 - Standby time: up to 450 hours
-Note: Battery life may vary based on usage patterns and settings. Heavy gaming and video recording can reduce battery life significantly.
 
-COMMON QUESTIONS AND ANSWERS
-
-Q: Does the EvoPhone X support wireless charging?
-A: Yes, it supports 30W wireless charging and 5W reverse wireless charging for accessories.
-
-Q: Is the storage expandable?
-A: No, the EvoPhone X does not have a microSD card slot. Choose your storage capacity carefully at purchase.
-
-Q: What colors are available?
-A: The EvoPhone X comes in Midnight Black, Arctic Silver, Ocean Blue, and Sunset Gold.
-
-Q: Is there a headphone jack?
-A: No, the EvoPhone X uses USB-C for audio or wireless Bluetooth connection.
-
-Q: What's included in the box?
-A: The package includes the phone, a USB-C cable, a SIM ejector tool, and documentation. The charger is sold separately.
-
-Q: How long is the warranty?
-A: Standard warranty is 1 year, with optional extended warranty available for purchase.
-
-Q: Does it support 5G networks?
-A: Yes, the EvoPhone X supports both Sub-6 and mmWave 5G bands.
+COLORS
+Midnight Black, Arctic Silver, Ocean Blue, Sunset Gold
 
 PRICE
-Starting at $999 USD for the 256GB model
-$1,199 USD for the 512GB model
-$1,399 USD for the 1TB model
+- 256GB: $999 USD
+- 512GB: $1,199 USD
+- 1TB: $1,399 USD
+
+---
+
+בעברית:
+
+EvoPhone X - סמארטפון פרימיום
+
+מפרט טכני:
+- מסך: 6.7 אינץ' AMOLED, קצב רענון 120Hz, רזולוציה 2800x1290
+- מעבד: OctoCore X9 (עד 3.2 GHz)
+- זיכרון RAM: 12GB LPDDR5
+- אחסון: 256GB, 512GB, 1TB
+- סוללה: 5000mAh עם טעינה מהירה 65W וטעינה אלחוטית 30W
+- מצלמות: ראשית 108MP, רחבה 48MP, טלפוטו 12MP, קדמית 32MP
+- מערכת הפעלה: EvoOS 5.0 (מבוסס Android 14)
+- קישוריות: 5G, WiFi 6E, Bluetooth 5.3, NFC, USB-C
+- מידות: 162.5 x 75.8 x 8.9 מ"מ
+- משקל: 198 גרם
+- עמידות במים: IP68
+
+ביצועי סוללה:
+- צפייה בווידאו: עד 20 שעות
+- משחקים: עד 10 שעות
+- גלישה באינטרנט: עד 15 שעות
+- זמן המתנה: עד 450 שעות
+
+תכונות עיקריות:
+- מסך ProMotion עם קצב רענון אדפטיבי 1-120Hz
+- מצב צילום לילה משופר עם AI
+- טעינה מהירה: 0-50% ב-15 דקות
+- תמיכה ב-Dual SIM + eSIM
+- חיישן טביעת אצבע במסך וזיהוי פנים
+- רמקולים סטריאו עם Dolby Atmos
+- מסגרת טיטניום
+
+צבעים: שחור, כסף, כחול, זהב
+
+מחיר:
+- 256GB: $999
+- 512GB: $1,199
+- 1TB: $1,399

@@ -4,7 +4,7 @@ import { weatherService } from './weather.service';
 import { exchangeService } from './exchange.service';
 import { mathTranslatorService } from './math_translator.service';
 import { ragService } from './rag.service';
-import { reviewService } from './review.service';
+import { getLanguage } from '../utils/language';
 
 interface OrchestrationStep {
    step: number;
@@ -143,7 +143,7 @@ export const orchestrationService = {
          ) {
             // Extract step number from placeholder
             const match = value.match(/<result_from_step_(\d+)>/);
-            if (match) {
+            if (match && match[1]) {
                const stepNumber = parseInt(match[1]);
                const stepResult = previousResults.find(
                   (r) => r.step === stepNumber
@@ -276,10 +276,11 @@ Time: ${result.execution_time_ms}ms`;
          })
          .join('\n\n');
 
-      // Build synthesis prompt
+      const lang = getLanguage(originalQuery);
       const prompt = orchestrationSynthesisPrompt
          .replace('{original_query}', originalQuery)
-         .replace('{steps_results}', stepsFormatted);
+         .replace('{steps_results}', stepsFormatted)
+         .replace(/{language}/g, lang);
 
       // Generate synthesized answer
       const response = await llmClient.generateText({

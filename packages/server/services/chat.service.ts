@@ -1,9 +1,7 @@
 import { conversationRepository } from '../repositories/conversation.repository';
-import template from '../prompts/chatbot.txt';
-import projectInfo from '../prompts/neuroStep.txt';
+import instructions from '../prompts/chatbot.txt';
 import { llmClient } from '../llm/client.js';
 import type { Message } from '../repositories/conversation.repository';
-const instructions = template.replace('{{projectInfo}}', projectInfo);
 
 export const chatService = {
    async sendMessage(

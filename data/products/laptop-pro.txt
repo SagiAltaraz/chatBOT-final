@@ -1,143 +1,45 @@
-TechBook Pro - Professional Laptop Computer
+TechBook Pro - Professional Laptop
+TechBook Pro - מחשב נייד מקצועי
 
-OVERVIEW
-The TechBook Pro is a high-performance laptop designed for professionals, creators, and power users who demand exceptional computing power in a portable form factor. With its stunning display, powerful processor, and all-day battery life, the TechBook Pro excels at demanding tasks like video editing, 3D rendering, software development, and data analysis.
+TECHNICAL SPECIFICATIONS / מפרט טכני
+- Processor / מעבד: Intel Core i9-14900H (14 cores, up to 5.4 GHz)
+- Graphics / כרטיס מסך: NVIDIA RTX 4070 8GB + Intel Iris Xe
+- RAM / זיכרון: 32GB DDR5 (expandable to 64GB / ניתן להרחבה ל-64GB)
+- Storage / אחסון: 1TB NVMe SSD (expandable to 2TB / ניתן להרחבה ל-2TB)
+- Display / מסך: 16 inch IPS, 2560x1600, 165Hz, 500 nits, 100% DCI-P3
+- Weight / משקל: 2.1 kg
+- Dimensions / מידות: 356 x 254 x 19.8 mm
+- Build / מבנה: Aluminum / אלומיניום
 
-TECHNICAL SPECIFICATIONS
-Processor: Intel Core i9-14900H (14th Gen)
-  - 14 cores (6 Performance + 8 Efficiency cores)
-  - Base frequency: 2.6 GHz, Turbo up to 5.4 GHz
-  - 24 MB Intel Smart Cache
-Graphics:
-  - Integrated: Intel Iris Xe Graphics
-  - Dedicated: NVIDIA GeForce RTX 4070 with 8GB GDDR6
-  - MUX switch for optimal graphics performance
-RAM: 32GB DDR5-5600MHz (expandable to 64GB, 2x SO-DIMM slots)
-Storage: 1TB NVMe PCIe 4.0 SSD (M.2 slot, expandable up to 2TB)
-Display: 16-inch IPS LCD
-  - Resolution: 2560 x 1600 (WQXGA)
-  - Refresh Rate: 165Hz with Adaptive Sync
-  - Brightness: 500 nits peak brightness
-  - Color Accuracy: 100% DCI-P3 color gamut, factory calibrated
-  - Anti-glare coating with low blue light technology
+PORTS / חיבורים
+- 2x Thunderbolt 4 (USB-C)
+- 3x USB 3.2 Type-A
+- 1x HDMI 2.1
+- 1x SD card reader
+- 1x 3.5mm audio
+- 1x Ethernet RJ-45
+- WiFi 6E, Bluetooth 5.3
 
-CONNECTIVITY AND PORTS
-Ports:
-  - 2x Thunderbolt 4 (USB-C) with DisplayPort and charging support
-  - 3x USB 3.2 Gen 2 Type-A
-  - 1x HDMI 2.1 (supports 4K at 120Hz)
-  - 1x SD card reader (UHS-II)
-  - 1x 3.5mm audio jack (combo headphone/mic)
-  - 1x Ethernet RJ-45 (2.5Gbps)
-  - 1x Kensington lock slot
-Wireless:
-  - WiFi 6E (802.11ax) with tri-band support
-  - Bluetooth 5.3
-Camera: 1080p Full HD webcam with IR sensor for facial recognition
-Audio: Stereo speakers (2x 3W) with Dolby Atmos, dual-array microphones
+BATTERY / סוללה
+- Capacity / קיבולת: 90Wh
+- Video playback / צפייה בווידאו: up to 12 hours / עד 12 שעות
+- Web browsing / גלישה: up to 10 hours / עד 10 שעות
+- Work / עבודה: up to 8 hours / עד 8 שעות
+- Charging / טעינה: 180W USB-C (60% in 45 min / 60% ב-45 דקות)
 
-PHYSICAL SPECIFICATIONS
-Dimensions: 356 x 254 x 19.8 mm
-Weight: 2.1 kg (4.6 lbs)
-Build: Aluminum unibody chassis
-Color Options: Space Gray, Silver
-Keyboard: Full-size backlit keyboard with numeric keypad, 1.5mm key travel
-Trackpad: Large glass precision trackpad (120 x 75 mm) with multi-gesture support
+FEATURES / תכונות
+- Backlit keyboard / מקלדת מוארת with numpad
+- Glass trackpad / משטח מגע זכוכית
+- 1080p webcam with IR / מצלמה עם זיהוי פנים
+- Fingerprint reader / קורא טביעות אצבע
+- Dolby Atmos speakers
 
-BATTERY AND POWER
-Battery: 90Wh lithium-polymer battery
-Battery Life:
-  - Video playback: up to 12 hours
-  - Web browsing: up to 10 hours
-  - Productivity work: up to 8 hours
-  - Gaming/rendering: 2-4 hours (varies by workload)
-Charging: 180W USB-C Power Adapter (charges to 60% in 45 minutes)
-Power Delivery: Supports USB-C charging from 65W+ adapters (slower charging)
+OS / מערכת הפעלה
+Windows 11 Professional
 
-OPERATING SYSTEM
-Pre-installed: Windows 11 Professional
-Linux Support: Fully compatible with major distributions (Ubuntu, Fedora, etc.)
-Driver Support: All drivers available for Windows and Linux
+WARRANTY / אחריות
+2 years international / שנתיים בינלאומית
 
-PERFORMANCE BENCHMARKS
-Cinebench R23 Multi-Core: ~19,000 points
-Geekbench 6 Single-Core: ~2,600 points
-Geekbench 6 Multi-Core: ~14,500 points
-3DMark Time Spy: ~12,000 (graphics score)
-PCMark 10: ~7,500 (overall productivity)
-
-THERMAL MANAGEMENT
-Cooling System: Dual-fan vapor chamber cooling
-Heat Pipes: 3x copper heat pipes
-Thermal Paste: Liquid metal on CPU for optimal heat dissipation
-Performance Modes:
-  - Silent (35 dB, reduced performance for quiet work)
-  - Balanced (optimal performance/noise ratio)
-  - Performance (maximum power, fan noise increases)
-  - Turbo (for short bursts, maximum cooling)
-
-SECURITY FEATURES
-- Fingerprint reader integrated into power button
-- IR camera for Windows Hello facial recognition
-- TPM 2.0 chip for hardware-based encryption
-- Kensington lock slot
-- BIOS password protection
-- Optional privacy screen filter
-
-COMMON QUESTIONS AND ANSWERS
-
-Q: Can I upgrade the RAM and storage?
-A: Yes, the TechBook Pro has 2x SO-DIMM slots (supports up to 64GB total) and one M.2 NVMe slot. RAM and storage are user-replaceable.
-
-Q: Does it support external monitors?
-A: Yes, it supports up to 3 external displays: 2x via Thunderbolt 4 (up to 4K at 120Hz each) and 1x via HDMI 2.1 (4K at 120Hz).
-
-Q: How is the keyboard for typing?
-A: The keyboard has excellent 1.5mm travel distance with tactile feedback. The layout includes a numeric keypad, and backlighting has 3 brightness levels.
-
-Q: Can it run demanding games?
-A: Yes, the RTX 4070 GPU handles most modern games at high settings. The 165Hz display is excellent for competitive gaming.
-
-Q: Is it suitable for video editing?
-A: Absolutely. The powerful i9 processor, 32GB RAM, and RTX 4070 GPU make it excellent for 4K video editing in Adobe Premiere, DaVinci Resolve, or Final Cut Pro (via Boot Camp).
-
-Q: How loud are the fans under load?
-A: In Performance mode during heavy tasks, fans reach approximately 45-48 dB. Silent mode keeps noise under 35 dB but reduces performance.
-
-Q: Does it get hot during use?
-A: The chassis stays cool during normal use. Under heavy load, the keyboard area may feel warm (35-40°C) but not uncomfortable. The vapor chamber cooling system is very effective.
-
-Q: Can I charge it with a phone charger?
-A: USB-C PD chargers (65W+) will charge the laptop, but slowly. For full performance, use the included 180W charger.
-
-Q: What's the warranty?
-A: Standard 2-year international warranty. Extended warranty and accidental damage protection available for purchase.
-
-WHAT'S INCLUDED IN THE BOX
-- TechBook Pro laptop
-- 180W USB-C Power Adapter
-- USB-C charging cable (2 meters)
-- Quick start guide and warranty card
-- Microfiber cleaning cloth
-- Driver USB (backup drivers for Windows)
-
-USE CASES
-Perfect for:
-- Software development and programming
-- Video editing and motion graphics
-- 3D modeling and CAD work
-- Data science and machine learning
-- Photo editing and graphic design
-- Gaming (AAA titles at high settings)
-- Music production and audio editing
-- Virtual machines and server development
-
-PRICING
-Base Configuration (32GB RAM, 1TB SSD): $2,199 USD
-Upgraded Configuration (64GB RAM, 2TB SSD): $2,699 USD
-
-Available accessories:
-- USB-C Docking Station: $149
-- Laptop Sleeve: $39
-- External SSD (1TB): $129
-- Wireless Mouse: $49
+PRICE / מחיר
+- 32GB + 1TB: $2,199
+- 64GB + 2TB: $2,699

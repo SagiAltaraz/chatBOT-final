@@ -83,7 +83,6 @@ export const ragService = {
             ...new Set(chunks.map((chunk) => chunk.metadata.product_name)),
          ];
 
-         // Step 3: Generate answer using LLM with RAG prompt
          const generationStart = Date.now();
          const prompt = ragPrompt
             .replace('{context}', context)
